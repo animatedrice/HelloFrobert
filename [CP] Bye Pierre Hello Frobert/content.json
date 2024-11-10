@@ -1,0 +1,63 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Display name in standard location",
+      "Target": "Strings/NPCNames",
+      "Action": "EditData",
+      "Entries": {
+        "Pierre": "Frobert"
+      }
+    },
+    {
+      "LogName": "Load all portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Pierre, Portraits/Pierre_Beach, Portraits/Pierre_Winter",
+      "FromFile": "assets/{{Target}}.png"
+    },
+    {
+      "LogName": "Load all sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Pierre, Characters/Pierre_Beach, Characters/Pierre_Winter",
+      "FromFile": "assets/{{Target}}.png"
+    },
+    {
+      "LogName": "load dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Caroline, Characters/Dialogue/Pierre,Characters/Dialogue/Jodi,Characters/Dialogue/Penny",
+      "FromFile": "assets/{{Target}}.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/SpeechBubbles",
+      "Entries": {
+        "SeedShop_Pierre_NotWinter": "Hi there! Welcome to Frobert's!"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedule/Caroline",
+      "Entries": {
+        "fall_25.002": "Excuse me, I'm here to warn PJ about Frobert's latest scam$u",
+        "fall_25.000": "PJ invited me to his art store today.",
+        "fall_25.001": "You're here to see PJ too?",
+        "winter_16.000": "I'm getting all my holiday shopping done tonight! Let me know if you see Frobert coming..."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedule/1_6_Strings",
+      "Entries": {
+        "Scholar_Question_0_0_Answers": "Clint,Gunther,Gus,Willy,Marnie,Frobert,Robin,Marlon",
+        "Scholar_Question_1_2": "Question 2: When is Frobert's Shop normally closed?"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedule/Caroline",
+      "Entries": {
+        "winter_16.000": "I'm getting all my holiday shopping done tonight! Let me know if you see Frobert coming..."
+      }
+    }
+  ]
+}

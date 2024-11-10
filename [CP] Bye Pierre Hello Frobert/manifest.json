@@ -1,0 +1,13 @@
+{
+  "Name": "Goodbye Pierre, Hello Frobert",
+  "Author": "IngridPaint",
+  "Version": "1.0.0",
+  "Description": "Pierre who?",
+  "UniqueID": "IngridPaint.HelloFrobert",
+  "UpdateKeys": [
+    "GitHub:AnimatedRice/HelloFrobert"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
